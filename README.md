@@ -5,8 +5,10 @@ Install and enable required PHP IMAP module on Ubuntu Server
 $ apt-get install php5-imap
 $ php5enmod imap
 
-MariaDB create database and user and grant privileges, change PASSWORD
+MariaDB create database and user and grant privileges, change PASSWORD:
+
 CREATE USER 'osticket_app'@'localhost' IDENTIFIED BY 'PASSWORD';
+
 GRANT ALL PRIVILEGES ON osticket.* TO 'osticket_app'@'localhost';
 
 Install required osTicket plugins to folder:
