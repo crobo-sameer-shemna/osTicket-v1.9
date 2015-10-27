@@ -23,4 +23,5 @@ Enable API
 Configure email POP for tech-support@crobo.com
 
 Configure cron to run every 5 min to fetch emails:
+
 */5 * * * * nobody php /var/www/crobo.com/subdomains/ticket/api/cron.php
